@@ -3,4 +3,75 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Information"
+        android:textSize="25dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ten"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nguyen Van A"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tuoi"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/edPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1993"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Dia chi"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoang Dao Thuy, Lang, Ha Noi"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cap Nhat"
+        android:textSize="25dp" />
+
+
 </LinearLayout>

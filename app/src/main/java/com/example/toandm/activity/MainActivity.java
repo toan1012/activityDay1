@@ -45,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//        final String user = getIntent().getStringExtra("EMAIL");
+//        tvUsr.setText(user);
+
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        String name = intent.getStringExtra("EMAIL");
+        tvUsr.setText(name);
     }
 
     @Override
